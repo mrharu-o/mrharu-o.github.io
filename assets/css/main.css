@@ -1,7 +1,8 @@
-    body {
-    background-color:black;
-    color:orange;
-  }
-  .container {
-    font-family: 'M PLUS 2', sans-serif;
-  }
+html {
+  scroll-behavior: smooth;
+  background-color: black;
+  color: orange;
+}
+.container {
+  font-family: "M PLUS 2", sans-serif;
+}

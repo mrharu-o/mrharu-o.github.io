@@ -49,10 +49,14 @@
   </nav>
 
   <div class="container">
-    <img src="/assets/img/icon.png" class="rounded mx-auto d-block img-thumbnail">
-<div class="text-center">
-  <h1>mrharu_o</h1>
-</div>
+    <div data-aos="flip-up">
+      <img src="/assets/img/icon.png" class="rounded mx-auto d-block img-thumbnail" id="#">
+    </div>
+    <div class="text-center">
+      <div data-aos="zoom-in">
+      <h1>mrharu_o</h1>
+    </div>
+    </div>
     <div class="others">
       <div class="footer">
         <p>利用に関しては全て自己責任でお願いします。</p>
@@ -61,7 +65,9 @@
     </div>
 
     <script>
-      AOS.init();
+      AOS.init(
+        once: true,
+      );
     </script>
 </body>
 
