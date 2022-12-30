@@ -8,3 +8,7 @@ html {
 .container {
   font-family: "M PLUS 2", sans-serif;
 }
+.footer {
+  background-color: black;
+  color: white;
+}
